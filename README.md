@@ -1,1 +1,1 @@
-# Sting
+# Sting - Developers
