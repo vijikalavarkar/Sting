@@ -1,12 +1,12 @@
 pipeline{
     agent {
-        label 'veg'
+        label 'nonveg'
     }
     stages{
-        stage('memory'){
+        stage('Diskutilization'){
             steps{
                 sh '''
-                    free -h
+                    df -kh
                 '''
             }
         }
