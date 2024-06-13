@@ -1,0 +1,14 @@
+pipelie{
+    agent{
+        label 'veg'
+    }
+    stages{
+        stage('memory'){
+            steps{
+                sh '''
+                    free -h
+                '''
+            }
+        }
+    }
+}
