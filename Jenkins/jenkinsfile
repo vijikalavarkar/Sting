@@ -1,12 +1,21 @@
 pipeline{
     agent {
-        label 'veg'
+        label 'nonveg'
     }
     stages{
-        stage('memory'){
+        stage('ServiceDeatils'){
             steps{
                 sh '''
-                    free -h
+                    uname -a
+                '''
+            }
+        }
+    }
+    stages{
+        stage('hostname'){
+            steps{
+                sh '''
+                    hostname
                 '''
             }
         }
