@@ -1,5 +1,5 @@
-pipelie{
-    agent{
+pipeline{
+    agent {
         label 'veg'
     }
     stages{
