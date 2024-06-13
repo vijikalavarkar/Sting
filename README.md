@@ -1,1 +1,1 @@
-# Sting - Testers
+# Sting - Jenkins
